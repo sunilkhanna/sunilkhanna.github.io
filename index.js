@@ -306,13 +306,13 @@
 
     if (hasLocalStorage) {
         restoreSavedPage();
-        addDocumentControls();
-        bindDocumentControls();
-        updateMetadata();
-        updateDownloadLink();
+       // addDocumentControls();
+        //bindDocumentControls();
+        //updateMetadata();
+       // updateDownloadLink();
     }
 
-    updatePageNumbers();
-    makeEditable();
+    //updatePageNumbers();
+    //makeEditable();
     requestAnimationFrame(bindMutationObserver);
 })();
